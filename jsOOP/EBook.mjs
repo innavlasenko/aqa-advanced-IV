@@ -15,7 +15,7 @@ export class EBook extends Book {
     };
 
     set format(format) {
-        if (format.includes('web')) throw new Error(`Incorrect format`);
+        if (format.includes('web')) {throw new Error('Incorrect format');}
         this._format = format
     };
 

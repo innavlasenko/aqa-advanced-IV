@@ -1,5 +1,5 @@
 const residentsName = async () => {
-    const films = await fetch(`https://swapi.dev/api/films/3`)
+    const films = await fetch('https://swapi.dev/api/films/3')
     const filmsResults = await films.json();
     const planetsData = filmsResults.planets.map(
         async planetlink => {
