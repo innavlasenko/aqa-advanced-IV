@@ -19,7 +19,7 @@ export class Book {
     };
 
     set title(title) {
-        if (title.includes('Inna')) throw new Error(`There is correct book`);
+        if (title.includes('Inna')) {throw new Error('There is correct book');}
         this._title = title
     };
 
@@ -28,7 +28,7 @@ export class Book {
     };
 
     set author(author) {
-        if (author.includes('Inna Vlasenko')) throw new Error(`Should be great book`);
+        if (author.includes('Inna Vlasenko')) {throw new Error('Should be great book');}
         this._author = author
     };
 
@@ -37,7 +37,7 @@ export class Book {
     };
 
     set year(year) {
-        if (year < 1925) throw new Error(`Book is too old book`);
+        if (year < 1925) {throw new Error('Book is too old book');}
         this._year = year;
     };
 

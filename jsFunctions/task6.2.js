@@ -7,5 +7,5 @@ function checkAge(age) {
     }
 }
 
-console.log(`Чи є особа дорослою:`, checkAge(42));
-console.log(`Чи є особа дорослою:`, checkAge(5));
+console.log('Чи є особа дорослою:', checkAge(42));
+console.log('Чи є особа дорослою:', checkAge(5));

@@ -10,7 +10,7 @@ const starshipsName = () => {
             console.log(starshipNames);
         })
         .catch(error => {
-            console.log(`Error: `, error)
+            console.log('Error: ', error)
         })
 }
 starshipsName()
@@ -24,7 +24,7 @@ const starshipsNameAsync = async () => {
         console.log(starships.map(starship => starship.name))
     }
     catch (error) {
-        console.log(`Error`, error)
+        console.log('Error', error)
     }
 };
 starshipsNameAsync()

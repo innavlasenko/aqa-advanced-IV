@@ -7,7 +7,7 @@ function handleNum(num, evenCallback, oddCallback) {
     }
 }
 function handleEven() {
-    console.log(`number is even`)
+    console.log('number is even')
 }
 
 function handleOdd() {

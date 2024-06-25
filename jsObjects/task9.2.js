@@ -1,6 +1,6 @@
 const book = {
-    title: "Friends, Lovers and the Big Terrible Thing",
-    author: "Matthew Perry",
+    title: 'Friends, Lovers and the Big Terrible Thing',
+    author: 'Matthew Perry',
     year: 2024
 };
 
